@@ -1,7 +1,7 @@
 ; Drush Make API version. 
 api = 2 
 ; Drupal core. 
-core = 7.x 
+core = 7.36
 
 ;Common modules. 
 projects[admin_menu][subdir] = "contrib" 
