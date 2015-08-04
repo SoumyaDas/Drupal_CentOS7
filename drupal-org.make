@@ -2,6 +2,7 @@
 api = 2 
 ; Drupal core. 
 core = 7.36
+projects[drupal][type] = core
 
 ;Common modules. 
 projects[admin_menu][subdir] = "contrib" 
