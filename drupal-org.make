@@ -15,8 +15,8 @@ projects[views][subdir] = "contrib"
 projects[devel][subdir] = "development"
 
 ; Multilingual modules.
-projects[fallback_language_negotation][subdir] = "contrib"
-projects[variable][subdir] = "contrib"
+;projects[fallback_language_negotation][subdir] = "contrib"
+;projects[variable][subdir] = "contrib"
 ;projects[i18n][subdir] = "contrib"
 ;projects[i18nviews][subdir] = "contrib"
 
