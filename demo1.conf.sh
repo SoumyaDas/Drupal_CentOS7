@@ -65,7 +65,7 @@ DB_PASS="root"
 
 DB_HOST="localhost"
 
-DB="demo1"
+DB=${BUILD}
 
 #
 # Additional drush make options 
