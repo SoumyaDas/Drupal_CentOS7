@@ -1,3 +1,5 @@
+## Setting up Drupal environment using Vagrant in CentOS 7.
+
 Clean up stuff need to do manually! Previous build and corresponding database.
 
 Box available here -- https://atlas.hashicorp.com/soumyadas/boxes/Drupal-CentOS-7.1.x-64
