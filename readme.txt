@@ -6,3 +6,14 @@ Set up instructions --
 6. $ Vagrant ssh
 7. $ build
 8. Copy the host entry printed on the screen after successful build and add it directly to your windows hosts file.
+
+Path to the build script --
+/home/vagrant/build
+
+Alias added for build to .bashrc file --
+alias build="~/build/demo1.sh ~/build/demo1.conf.sh"
+
+Alias added for code sniffer to .bashrc file --
+alias sniff="phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme"
+
+
