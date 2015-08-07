@@ -67,6 +67,7 @@ echo -e "# Running drush site-install...\n"
 
 # Files directory (local dev)
 sudo chmod -R 777 /var/www/html/${BUILD}/sites/default/files
+sudo chown -R vagrant:vagrant /var/www/html/${BUILD}
 # Files directory (remote dev/stage/prod)
 #sudo chown -R _www:_www /var/www/html/${BUILD}/sites/default/files
 
@@ -119,6 +120,11 @@ echo "# ************************************
 
 sudo systemctl restart httpd
 
+##
+# write host entry to the windows hosts file. 
+#
 echo -e "\n# Add this host entry to the windows host file--\n192.168.33.12 ${BUILD}.demoserver.com\n"
+FILE2=/vagrant_data/etc/hosts
+echo "192.168.33.12 ${BUILD}.demoserver.com" >> $FILE2
 
 exit 0 
