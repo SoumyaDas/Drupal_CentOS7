@@ -9,7 +9,7 @@ Set up instructions --
 2. $ vagrant up --provider virtualbox
 3. $ Vagrant ssh
 4. $ build
-5. Copy the host entry printed on the screen after successful build and add it directly to your windows hosts file.
+5. Copy the host entry printed on the screen after successful build and run it from your windows browser.
 
 Path to the build script --
 /home/vagrant/build
