@@ -7,6 +7,7 @@
 # Path of the directory 
 # where to build should take place
 WEB_DIR='/var/www/html'
+BUILD_INFO_DIR='/var/www/build'
 
 # Name of DocumentRoot within $WEB_DIR 
 # where the webserver should point to
@@ -27,6 +28,11 @@ BUILD_DATE=$(date +%Y%m%d%H%M%S)
 
 # Name pattern for the build
 BUILD=${DOC_ROOT}-${BUILD_DATE}
+
+FILE_DIR=${WEB_DIR}/${BUILD}/sites/default/files
+BUILD_ROOT=${WEB_DIR}/${BUILD}
+CONF=/etc/httpd/conf.d/${BUILD}.conf
+WIN_HOSTS=/vagrant_data/etc/hosts
 
 #
 # Options for drush site-install
