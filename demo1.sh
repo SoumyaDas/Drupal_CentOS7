@@ -125,9 +125,10 @@ sudo systemctl restart httpd
 ##
 # write host entry to the windows hosts file. 
 #
-echo -e "\n# Add this host entry to the windows host file--\n192.168.33.12 ${BUILD}.demoserver.com\n"
+echo -e "\n# Adding hosts entry to windows hosts file...\n"
 FILE=${WIN_HOSTS}
 echo "192.168.33.12 ${BUILD}.demoserver.com" >> $FILE
+echo -e "\n# Host entry added--\n192.168.33.12 ${BUILD}.demoserver.com\n"
 
 FILE=${BUILD_INFO_DIR}/build-record-existing.txt
 echo "${BUILD}" >> $FILE
