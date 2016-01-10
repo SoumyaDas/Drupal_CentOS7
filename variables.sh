@@ -18,7 +18,7 @@ DOC_ROOT='d7'
 #
 
 # Path to makefile 
-BUILD_MAKEFILE='https://raw.githubusercontent.com/SoumyaDas/Drupal_CentOS7/master/drupal-org.make'
+BUILD_MAKEFILE='/home/vagrant/build/drupal-org.make'
 
 # Machine name of the profile that should be installed
 BUILD_PROFILE='standard'
